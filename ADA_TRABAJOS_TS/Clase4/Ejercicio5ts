@@ -1,0 +1,5 @@
+let cosa2: any = "3.1416";
+const pi = (cosa2 as unknown) as number;
+console.log(pi);
+console.log("Valor original:", cosa2, typeof cosa2);
+console.log("Valor convertido:", pi, typeof pi);
